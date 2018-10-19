@@ -5,6 +5,7 @@ struct hit_record {
 	float t;
 	Vec3 p; //Œª÷√
 	Vec3 normal;  //∑®œﬂ
+	material *mat_ptr;
 };
 class hitable
 {
