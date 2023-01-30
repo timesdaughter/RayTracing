@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2023-01-30T05:51:51.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="FNMa_oB-ojxAw53VoAwW" version="20.8.13" type="github">
+  <diagram name="第 1 页" id="UpWYCy4t44wFhLai24nq">
+    <mxGraphModel dx="1136" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6q4BA0_0Po57IuovkxM4-9" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="1" source="6q4BA0_0Po57IuovkxM4-4" target="6q4BA0_0Po57IuovkxM4-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="预热阶段超时跳过，并不安全。保证即使没有预热阶段，局内技能释放表现正常" treeRoot="1" id="6q4BA0_0Po57IuovkxM4-4">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+            <mxGeometry x="170" y="100" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6q4BA0_0Po57IuovkxM4-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="140" y="130" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6q4BA0_0Po57IuovkxM4-12" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="1" source="6q4BA0_0Po57IuovkxM4-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6q4BA0_0Po57IuovkxM4-14" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="1" source="6q4BA0_0Po57IuovkxM4-6" target="6q4BA0_0Po57IuovkxM4-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="需要统一预热的资源比较多，需要避免资源加载阻塞线程" treeRoot="1" id="6q4BA0_0Po57IuovkxM4-6">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+            <mxGeometry x="170" y="170" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6q4BA0_0Po57IuovkxM4-16" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="1" source="6q4BA0_0Po57IuovkxM4-7" target="6q4BA0_0Po57IuovkxM4-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="需要标记当前TaskBase结束" treeRoot="1" id="6q4BA0_0Po57IuovkxM4-7">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+            <mxGeometry x="170" y="240" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="基础数据结构提前构造，没有预热的资源局内调用可以按需加载" treeRoot="1" id="6q4BA0_0Po57IuovkxM4-8">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+            <mxGeometry x="460" y="100" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="异步加载" treeRoot="1" id="6q4BA0_0Po57IuovkxM4-13">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+            <mxGeometry x="460" y="170" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="需要回调函数" treeRoot="1" id="6q4BA0_0Po57IuovkxM4-15">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+            <mxGeometry x="460" y="240" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6q4BA0_0Po57IuovkxM4-17" value="分析" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
