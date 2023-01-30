@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T06:27:41.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SLaqzr8qw5QDD3Tm88tn" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:36:01.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ouP4pSI3_SWf5noJRqlN" version="20.8.13" type="github">
   <diagram name="第 1 页" id="lxdHE2UPKA5CxRFo4Gff">
     <mxGraphModel dx="1647" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,11 +31,11 @@
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-8" value="Login" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;" connectable="0" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-11" value="" style="swimlane;startSize=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-11" value="" style="swimlane;startSize=0;strokeColor=#d79b00;fillColor=#ffe6cc;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="140" y="135" width="260" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-23" value="&lt;font color=&quot;#ffd966&quot;&gt;NBGameplayCueManager&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-11">
-          <mxGeometry x="45" y="185" width="60" height="30" as="geometry" />
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-23" value="&lt;font color=&quot;#ea6b66&quot;&gt;&lt;b&gt;NBGameplayCueManager&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-11">
+          <mxGeometry y="185" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-12" value="TaskBegin添加回调监听" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="185" y="390" width="170" height="40" as="geometry" />
@@ -91,11 +91,11 @@
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="LKgxjD0HNKO4zgZzNQQN-28" target="LKgxjD0HNKO4zgZzNQQN-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-28" value="" style="swimlane;startSize=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-28" value="" style="swimlane;startSize=0;strokeColor=#d79b00;fillColor=#ffe6cc;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="110" y="620" width="320" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-29" value="GameplayCueSet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFD966;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-28">
-          <mxGeometry x="20" y="250" width="60" height="30" as="geometry" />
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-29" value="&lt;font color=&quot;#ea6b66&quot;&gt;&lt;b&gt;GameplayCueSet&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFD966;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-28">
+          <mxGeometry x="30" y="240" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=8;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LKgxjD0HNKO4zgZzNQQN-28" source="LKgxjD0HNKO4zgZzNQQN-32" target="LKgxjD0HNKO4zgZzNQQN-39">
           <mxGeometry relative="1" as="geometry">
@@ -123,11 +123,11 @@
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-42" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#000000;fontSize=8;fontColor=#000000;" connectable="0" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-22" value="" style="swimlane;startSize=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-22" value="" style="swimlane;startSize=0;strokeColor=#d79b00;fillColor=#ffe6cc;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="140" y="380" width="260" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-24" value="LoadingTaskGameplayCue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFD966;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-22">
-          <mxGeometry x="45" y="180" width="60" height="30" as="geometry" />
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-24" value="&lt;font color=&quot;#ea6b66&quot;&gt;&lt;b&gt;LoadingTaskGameplayCue&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFD966;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-22">
+          <mxGeometry y="180" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="LKgxjD0HNKO4zgZzNQQN-66">
           <mxGeometry relative="1" as="geometry">
@@ -137,7 +137,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-66" value="" style="swimlane;startSize=0;strokeColor=#d6b656;fontSize=8;fillColor=#fff2cc;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-66" value="" style="swimlane;startSize=0;strokeColor=#d79b00;fontSize=8;fillColor=#ffe6cc;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="510" y="590" width="230" height="200" as="geometry" />
         </mxCell>
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-47" value="设置LoadedGameplayCueClass为nullptr" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-66">
@@ -152,7 +152,7 @@
             <mxPoint x="80" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LKgxjD0HNKO4zgZzNQQN-78" value="&lt;font color=&quot;#ffd966&quot;&gt;NBGameplayCueManager&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-66">
+        <mxCell id="LKgxjD0HNKO4zgZzNQQN-78" value="&lt;font color=&quot;#ea6b66&quot;&gt;&lt;b&gt;NBGameplayCueManager&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="LKgxjD0HNKO4zgZzNQQN-66">
           <mxGeometry x="50" y="170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LKgxjD0HNKO4zgZzNQQN-73" value="ExitBattle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
