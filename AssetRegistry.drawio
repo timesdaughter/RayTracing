@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T07:39:27.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.13" etag="ZoYQR8Dql48VFV1A9xzR" type="github"><diagram name="第 1 页" id="o_SmTuqvqL7Alu2AzdK_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-30T14:10:37.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JSVM0DYm8Ku6VPB8Edqt" version="20.8.13" type="github">
+  <diagram name="第 1 页" id="o_SmTuqvqL7Alu2AzdK_">
+    <mxGraphModel dx="2474" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-1" value="GameplayCue存储目录" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-4" value="AssetData" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="250" y="165" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-7" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;AssetRegistry&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;fillColor=#fff2cc;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="132" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-9" value="TagsAndValue+ObjectPath" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;fillColor=#fff2cc;rotation=295;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ObjectPath&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-14" value="CuesToAdd" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-15" value="AssetsToLoad" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-16" value="GameplayCue存储目录" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="332" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;fillColor=#fff2cc;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="452" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-21" value="TagsAndValue+ObjectPath" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-22" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;fillColor=#fff2cc;rotation=295;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ObjectPath&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="270" y="570" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-24" value="CuesToAdd" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-25" value="AssetsToLoad" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="540" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-26" value="GameplayCueDataTable" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="480" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;fillColor=#fff2cc;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="125" y="380" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-29" value="Editor刷新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="410" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AZ4lKoCMtfwZNNDERI_-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="300" as="sourcePoint" />
+            <mxPoint x="830" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
